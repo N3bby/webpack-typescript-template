@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watch"
+    "start": "npx concurrently \"npx webpack --watch\" \"npx webpack-dev-server\""
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "three.js": "^0.77.1"
   },
   "devDependencies": {
+    "concurrently": "^5.1.0",
     "html-webpack-plugin": "^4.0.4",
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
