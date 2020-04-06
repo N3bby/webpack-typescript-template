@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "three.js": "^0.77.1"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
